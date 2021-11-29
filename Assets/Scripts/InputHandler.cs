@@ -8,7 +8,7 @@ public class InputHandler : MonoBehaviour
 {
     public static InputHandler instance;
     
-    public string inputHistory;
+    private string inputHistory;
     private string processedInput;
     
     private UIManager uiManager;
